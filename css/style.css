@@ -13,11 +13,37 @@ body{
     background-color: #2C3E50;
 }
 
-#site_header .col-6{
+#site_header {
     justify-content: center;
     align-content: center;
 }
 
 #site_header p{
     margin: 0 7px;
+}
+
+
+/* UTILITY */
+
+[class^=col] {
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+
+/* MAIN */
+
+#site_main .row{
+    background-color: #1ABC9C;
+}
+
+
+.linea{
+    border: 2px solid white;
+    width: 60px;
+    height: 1px;
+    
+
 }
