@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    color: white;
+}
+
+
+#site_header .container{
+    background-color: #2C3E50;
+}
+
+#site_header .col-6{
+    justify-content: center;
+    align-content: center;
+}
+
+#site_header p{
+    margin: 0 7px;
+}
