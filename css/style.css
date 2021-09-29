@@ -33,9 +33,12 @@ body{
 
 
 
+
+
+
 /* MAIN */
 
-#site_main .row{
+.jumbo .row{
     background-color: #1ABC9C;
 }
 
@@ -44,6 +47,8 @@ body{
     border: 2px solid white;
     width: 60px;
     height: 1px;
-    
+}
 
+.griglia img{
+    height: 150px;
 }
