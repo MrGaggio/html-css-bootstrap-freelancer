@@ -36,6 +36,13 @@ body{
 
 
 /* MAIN */
+.nav_bar{
+    flex-basis: 0;
+    flex-grow: 0;
+}
+.navbar li{
+    word-spacing: 20px;
+}
 
 .jumbo{
     background-color: #1ABC9C;

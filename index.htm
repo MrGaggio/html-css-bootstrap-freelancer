@@ -19,18 +19,28 @@
 
 <body>
     <div id="site_header">
-        <div class="container p-3 ">
-            <div class="row">
-                <div class="col-6 d-flex">
-                    <H3><strong>START BOOTSTRAP</strong></H3>
-                </div>
-                <div class="col-6 d-flex m-x-3 align-items-center">
-                    <p>PORTAFOLIO</p>
-                    <p>ABOUT</p>
-                    <P>CONTACT</P>
-                </div>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid  justify-content-around">
+              <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav_bar" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                  </li>
 
+                </ul>
+              </div>
+            </div>
+          </nav>
         </div>
     </div>
     <!-- /#site_header -->
@@ -208,7 +218,7 @@
             </div>
         </div>
 
-        <div class="container-fluid bottom">
+        <div class="container-fluid bottom pt-5 pb-3">
             <div class="row justify-content-center">
                 <div class="col-sm-2 d-flex">
                     <p class="fst-italic">Copyright your website 2019</p>
