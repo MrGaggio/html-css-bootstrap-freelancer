@@ -51,10 +51,23 @@ body{
     margin: 0 10px;
 }
 
+.linea2{
+    border: 1px solid black;
+    width: 100px;
+    height: 1px;
+    align-self: center;
+    margin: 0 10px;
+}
+
+
 .griglia img{
-    width: 180px;
+    width: 250px;
 }
 
 .jumbo h6{
     padding-top: 10px;
+}
+
+.jumbo img{
+   
 }
