@@ -74,3 +74,13 @@ body{
 .green{
     background-color: #1ABC9C ;
 }
+
+.contact{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.send{
+    background-color: #1ABC9C;
+}
