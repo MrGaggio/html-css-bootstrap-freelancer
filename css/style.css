@@ -84,3 +84,20 @@ body{
 .send{
     background-color: #1ABC9C;
 }
+
+.footer{
+    background-color: #3A546D;
+}
+
+#site_footer p{
+    font-size: 12px;
+}
+
+.social{
+    font-size: 30px;
+    word-spacing: 20px;
+}
+
+.bottom{
+    background-color: #2C3E50;
+}
