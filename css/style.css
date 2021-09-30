@@ -9,13 +9,12 @@ body{
 }
 
 
-#site_header .container{
-    background-color: #2C3E50;
-}
+
 
 #site_header {
     justify-content: center;
     align-content: center;
+    background-color: #2C3E50;
 }
 
 #site_header p{
@@ -38,36 +37,40 @@ body{
 
 /* MAIN */
 
-.jumbo_card{
+.jumbo{
     background-color: #1ABC9C;
 }
 
 
 .linea{
     border: 1px solid white;
-    width: 100px;
-    height: 1px;
+    width: 150px;
+    height: 2px;
     align-self: center;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 .linea2{
     border: 1px solid black;
-    width: 100px;
-    height: 1px;
+    width: 150px;
+    height: 2px;
     align-self: center;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 
 .griglia img{
-    width: 250px;
+    width: 100%;
 }
 
 .jumbo h6{
     padding-top: 10px;
 }
 
-.jumbo img{
-   
+.img_smussata{
+    border-radius: 20px;
+}
+
+.green{
+    background-color: #1ABC9C ;
 }
