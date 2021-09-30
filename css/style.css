@@ -44,7 +44,7 @@ body{
 
 .linea{
     border: 1px solid white;
-    width: 150px;
+    width: 120px;
     height: 2px;
     align-self: center;
     margin: 0 20px;
@@ -52,7 +52,7 @@ body{
 
 .linea2{
     border: 1px solid black;
-    width: 150px;
+    width: 120px;
     height: 2px;
     align-self: center;
     margin: 0 20px;
