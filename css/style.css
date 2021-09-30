@@ -38,18 +38,23 @@ body{
 
 /* MAIN */
 
-.jumbo .row{
+.jumbo_card{
     background-color: #1ABC9C;
 }
 
 
 .linea{
-    border: 2px solid white;
-    width: 60px;
+    border: 1px solid white;
+    width: 100px;
     height: 1px;
+    align-self: center;
+    margin: 0 10px;
 }
 
 .griglia img{
     width: 180px;
+}
 
+.jumbo h6{
+    padding-top: 10px;
 }
