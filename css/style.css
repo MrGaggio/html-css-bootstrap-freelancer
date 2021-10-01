@@ -6,7 +6,9 @@
 
 body{
     color: white;
-}
+ }
+
+
 
 
 
@@ -16,11 +18,19 @@ body{
     align-content: center;
     background-color: #2C3E50;
 }
+.navbar{
+    background-color: #2C3E50;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 #site_header p{
     margin: 0 7px;
 }
-
 
 /* UTILITY */
 
@@ -30,12 +40,6 @@ body{
 }
 
 
-
-
-
-
-
-/* MAIN */
 .nav_bar{
     flex-basis: 0;
     flex-grow: 0;
@@ -107,4 +111,9 @@ body{
 
 .bottom{
     background-color: #2C3E50;
+}
+
+
+@media screen and {
+    
 }
